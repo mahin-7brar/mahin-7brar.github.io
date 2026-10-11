@@ -97,3 +97,9 @@ details[open] summary span{transform:rotate(45deg)}
 @media(max-width:360px){.credentials{grid-template-columns:1fr 1fr}.credentials>div:last-child{grid-column:1/-1}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 @media print{.header,.button,.copy-email,.footer{display:none}.container{width:100%}body{font-size:11px;background:white}.hero{padding:15px 0;gap:25px}.portrait{max-width:150px}h1{font-size:32px}.hero-intro{font-size:13px}.section{padding:22px 0;grid-template-columns:150px minmax(0,1fr);gap:25px}.project,.role{break-inside:avoid}.publication-detail{display:block}h2{font-size:18px}}
+
+.school-qualifications{margin-top:26px}
+.qualification{border-top:1px solid var(--line);padding-top:20px;margin-top:20px}
+.qualification h3{font-size:16px;margin-bottom:0}
+.school-result{font-size:14px;font-weight:500;color:var(--green);margin:9px 0 0}
+.qualification .note{margin:6px 0 0}
